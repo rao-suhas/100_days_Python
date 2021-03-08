@@ -3,7 +3,7 @@ import random
 #TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
 from hangman_words import word_list
 import hangman_art as stage
-#Delete this line: word_list = ["ardvark", "baboon", "camel"]
+
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
